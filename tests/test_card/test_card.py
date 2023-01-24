@@ -11,4 +11,3 @@ def test_attributes(card):
     assert card.suit == 'diamond'
     assert card.value == 'Queen'
     assert card.rank == 12
-
