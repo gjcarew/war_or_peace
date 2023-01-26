@@ -35,10 +35,10 @@ def test_high_ranking_cards(deck, card1, card3):
     assert deck.high_ranking_cards() == [card1, card3]
 
 def test_percent_high_ranking(deck):
-    assert deck.percent_high_ranking == 66.67
+    assert deck.percent_high_ranking() == 66.67
 
 def test_remove_card(deck, card1, card2, card3):
-    assert deck.remove_card == card1
+    assert deck.remove_card() == card1
     assert deck.cards == [card2, card3]
 
 @pytest.fixture
