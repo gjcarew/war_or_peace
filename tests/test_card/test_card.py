@@ -1,3 +1,4 @@
+'''Tests for card class'''
 import pytest
 from src.card import Card
 
